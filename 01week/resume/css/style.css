@@ -1,0 +1,60 @@
+body {
+ margin: 20px;
+ background-color: #7FFFE6;
+ font-style: normal;
+ font-variant: normal;
+}
+
+span {
+  margin: 30px;
+}
+
+div {
+  padding-left: 20px;
+  margin: 20px;
+  border: 4px solid #000;
+  border-color: #e6e6e6;
+  color: #262626;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#Name {
+  background-color:	#b3b3b3;
+  padding: 0px;
+  text-align: center;
+  font-size: 18pt;
+}
+
+#Navigation {
+  background-color: #b3b3b3;
+  padding: 12px;
+  text-align: center;
+  font-size: 16pt;
+}
+
+#Contact {
+  background-color: #b3b3b3;
+}
+
+#Experience {
+  background-color: #b3b3b3;
+}
+
+#Education {
+  background-color: #b3b3b3;
+}
+
+#Skills {
+  background-color: #b3b3b3;
+}
+
+#Interests {
+  background-color: #b3b3b3;
+}
+
+#Social {
+  margin: 60px;
+  padding: 12px;
+  background-color: #b3b3b3;
+  text-align: center;
+}
