@@ -41,9 +41,14 @@ h1{
   padding-left: 12px;
 }
 #interests{
-  padding-left: 40px;
+  padding-left: 12px;
   padding-bottom: 10px;
 }
+#education {
+  margin: 0px;
+  padding-left: 20px !important;
+}
+
 h2{
   width: 100%;
   color: white;
@@ -52,6 +57,10 @@ h2{
   border-style: solid;
   border-color: #7a7a7a;
   background-color: #41afa8;
+}
+h3{
+  margin: 0px;
+  padding:0px;
 }
 #bodytext {
   height: 100%
