@@ -1,65 +1,85 @@
 body {
- background-color: #7FFFE6;
- font-style: normal;
- font-variant: normal;
+  background-color: white;
+  font-family: 'Arsenal', sans-serif;
+  background-color: #17252a;
+  margin: 12px;
 }
-
-div {
-  border: 4px solid #000;
-  border-color: #e6e6e6;
+#header{
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16pt;
+  background-color: #bcbcbc;
+  border: 5px;
+  margin: 5px;
+  border-style: solid;
+  border-color: #7a7a7a;
+  padding: 20px;
+}
+h1{
+  font-size: 38pt;
+  font-family: 'Arsenal', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar{
+  float: left;
+  height: 100%;
+  width:33.3%;
+  border: 5px;
+  top: 0;
+  left: 0;
+  border-style: solid;
+  border-color: #7a7a7a;
+  padding: 5px;
+  margin: 5px;
+  position: sticky;
+  /* z-index: 1; */
+  background-color: #dff2f1;
+  /* overflow-x: hidden; */
+}
+#contact{
   padding-left: 12px;
 }
+#interests{
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+#education {
+  margin: 0px;
+  padding-left: 20px !important;
+}
 
-#Name {
-  background-color:	#b3b3b3;
-  padding-left: 0px;
+h2{
+  width: 100%;
+  color: white;
   text-align: center;
-  color: #262626;
-  font-family: 'Libre Franklin', sans-serif;
+  border: 2px;
+  border-style: solid;
+  border-color: #7a7a7a;
+  background-color: #41afa8;
 }
-
-#Navigation {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-  margin: 12px;
+h3{
+  margin: 0px;
+  padding:0px;
 }
-
-#Contact {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
+#bodytext {
+  height: 100%
+  width:66.6%;
+  border: 5px;
+  border-style: solid;
+  border-color: #7a7a7a;
+  padding: 5px;
+  margin: 10px;
+  position: static;
+  z-index: 1;
+  top: 0;
+  left:0;
+  background-color: #feffff;
+  overflow-x: hidden;
 }
-
-#Experience {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-  margin: 12px;
+article{
+ padding-left: 12px;
 }
-
-#Education {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-}
-
-#Skills {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-  margin: 12px;
-}
-
-#Interests {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-}
-
-#Social {
-  background-color: #b3b3b3;
-  font-family: 'Libre Franklin', sans-serif;
-  color: #262626;
-  margin: 12px;
+b{
+  padding-left: 12px;
 }
