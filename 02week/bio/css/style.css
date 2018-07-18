@@ -2,7 +2,30 @@ body {
   background-color: black;
   color: white;
 }
-.top{
+.top {
+
+}
+#header{
+  background-color: red; 
+  width: 50%;
+  float:left;
+}
+#nav{
+  background-color: yellow;
+  width: 50%;
+  float: right;
+}
+#home{
+  background-color: pink;
+  width: 25%;
+  float: left;
+}
+#projects{
+  background-color: orange;
+  width: 25%;
+  float: right;
+}
+/* .top{
   border: 1px solid red;
 }
 #header{
@@ -28,4 +51,4 @@ body {
   height: 25%;
   width: 24.6%;
   float: right;
-}
+} */
