@@ -1,54 +1,73 @@
-body {
-  background-color: black;
-  color: white;
+html{
+  height: 100%;
 }
-.top {
-
+body{
+  height: 100%;
+}
+#wrapper{
+  height: 100%;
+}
+#top-wrapper{
+  height: 50%;
+}
+#bottom-wrapper{
+  height: 50%;
 }
 #header{
-  background-color: red; 
   width: 50%;
-  float:left;
-}
-#nav{
-  background-color: yellow;
-  width: 50%;
-  float: right;
-}
-#home{
-  background-color: pink;
-  width: 25%;
+  height: 100%;
+  background-color: #737c5e;
   float: left;
 }
-#projects{
-  background-color: orange;
-  width: 25%;
-  float: right;
-}
-/* .top{
-  border: 1px solid red;
-}
-#header{
-  border: 2px solid yellow;
+#navigation{
+  width: 50%;
   height: 50%;
-  width: 49.3%;
-  float:left;
-}
-#nav{
-  border: 2px solid blue;
-  height: 25%;
-  width: 49.6%;
+  background-color: #9a977b;
   float: right;
 }
-#home{
-  border: 2px solid purple;
-  height: 25%;
-  width: 24.6%;
+#home_resume{
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+#home {
+  width: 50%;
+  height: 100%;
+  background-color: #dad1be;
   float: left;
 }
 #resume{
-  border: 2px solid green;
-  height: 25%;
-  width: 24.6%;
+  width: 50%;
+  height: 100%;
+  background-color: #c9b39c;
   float: right;
-} */
+}
+#snapshot{
+  width: 50%;
+  height: 100%;
+  background-color: #737c5e;
+  float: right;
+}
+#skills-wrapper{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+#projects{
+  width: 50%;
+  height: 100%;
+  background-color: #c9b39c;
+  float: left;
+}
+#contact{
+  width: 50%;
+  height: 100%;
+  background-color: #dad1be;
+  float: right;
+}
+#hobbies{
+  width: 50%;
+  height: 50%;
+  background-color: #9a977b;
+  float: left;
+}
