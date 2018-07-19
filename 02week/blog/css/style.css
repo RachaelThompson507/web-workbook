@@ -1,0 +1,12 @@
+body {
+  background-color: green;
+}
+main {
+  width: 50%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 0px 30px 30px;
+  border-radius: 5px;
+  border: 5px solid black;
+  background-color: white;
+}
