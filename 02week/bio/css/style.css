@@ -1,73 +1,106 @@
-html{
+html {
   height: 100%;
 }
-body{
+
+body {
   height: 100%;
 }
-#wrapper{
+
+#wrapper {
   height: 100%;
 }
-#top-wrapper{
+
+#top-wrapper {
   height: 50%;
 }
-#bottom-wrapper{
+
+#bottom-wrapper {
   height: 50%;
 }
-#header{
+
+#header {
+  text-align: center;
   width: 50%;
   height: 100%;
-  background-color: #737c5e;
+  background-color: #bbc7cc;
   float: left;
 }
-#navigation{
+
+h1 {
+  margin: 3% 0% 0%;
+  padding: 0% 0% 0%;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+  font-size: 250%;
+  text-shadow: 3px 2px #919191;
+}
+
+#header>h2 {
+  margin: 0% 0% 0%;
+  padding: 0% 0% 0%;
+  font-family: 'Poiret One', cursive;
+  font-size: 175%;
+  font-stretch: expanded;
+}
+
+#navigation {
   width: 50%;
   height: 50%;
-  background-color: #9a977b;
+  background-color: #bcc0d9;
   float: right;
 }
-#home_resume{
+
+#home_resume {
   width: 50%;
   height: 50%;
   float: right;
 }
+
 #home {
   width: 50%;
   height: 100%;
-  background-color: #dad1be;
+  background-color: #c5e2e3;
   float: left;
 }
-#resume{
+
+#resume {
   width: 50%;
   height: 100%;
-  background-color: #c9b39c;
+  background-color: #bcd9d2;
   float: right;
 }
-#snapshot{
+
+#snapshot {
   width: 50%;
   height: 100%;
-  background-color: #737c5e;
+  background-color: #bbc7cc;
   float: right;
 }
-#skills-wrapper{
+
+#skills-wrapper {
   width: 50%;
   height: 50%;
   float: left;
 }
-#projects{
+
+#projects {
   width: 50%;
   height: 100%;
-  background-color: #c9b39c;
+  background-color: #bcd9d2;
   float: left;
 }
-#contact{
+
+#contact {
   width: 50%;
   height: 100%;
-  background-color: #dad1be;
+  background-color: #c5e2e3;
   float: right;
 }
-#hobbies{
+
+#hobbies {
   width: 50%;
   height: 50%;
-  background-color: #9a977b;
+  background-color: #bcc0d9;
   float: left;
 }
