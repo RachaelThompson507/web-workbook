@@ -50,6 +50,12 @@ h1 {
   background-color: #bcc0d9;
   float: right;
 }
+button {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 
 #home_resume {
   width: 50%;
