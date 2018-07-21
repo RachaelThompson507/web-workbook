@@ -30,19 +30,19 @@ h1 {
   margin: 3% 0% 0%;
   padding: 0% 0% 0%;
   font-stretch: extra-expanded;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Poiret One', cursive;
   font-variant: small-caps;
-  font-size: 250%;
+  font-size: 300%;
   text-shadow: 3px 2px #919191;
 }
 
-#header>h2 {
+/* #header>h2 {
   margin: 0% 0% 0%;
   padding: 0% 0% 0%;
   font-family: 'Poiret One', cursive;
   font-size: 175%;
   font-stretch: expanded;
-}
+} */
 
 #navigation {
   width: 50%;
@@ -50,11 +50,32 @@ h1 {
   background-color: #bcc0d9;
   float: right;
 }
+
+.buttons{
+  margin: 0% 10% 20%;
+  padding: 0% 0% 5%;
+  position: relative;
+  text-align: center;
+}
 button {
   margin-left: 3%;
   margin-right: 3%;
-  padding-left: 2%;
-  padding-right: 2%;
+  width: 10%;
+  border: 2px solid #919191;
+  font-family: 'Poiret One', cursive;
+  font-variant: small-caps;
+  font-size: 12pt;
+  color: #1a1a1a;
+  background-color: #c7c7c7;
+  box-shadow: 2px 4px #919191;
+}
+button:hover{
+  background-color: #c6e2e3;
+}
+button:active {
+  background-color: #bcc1d8;
+  box-shadow: 0px 3px #000;
+  transform: translateY(4px);
 }
 
 #home_resume {
