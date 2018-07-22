@@ -1,1 +1,31 @@
-/* You can style your links page here */
+body {
+  color: white;
+  background-color: black;
+  font-family: 'Walter Turncoat', cursive;
+  background-image: url("../../background_image/work_hard.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  color: #e7fffe;
+  text-align: left;
+  text-shadow: 3px 3px #2fd843;
+  padding-left: 10%;
+  font-size: 45pt;
+}
+.week{
+  text-align: right;
+  padding-right: 20%;
+}
+h2{
+  color: #ffffff;
+  font-size: 25pt;
+  text-shadow: 3px 2px #2fd843;
+}
+a:link{
+  color:#8aece8;
+}
+a:visited{
+  color:#c482fa;
+}
