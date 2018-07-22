@@ -22,18 +22,27 @@ body {
   text-align: center;
   width: 50%;
   height: 100%;
-  background-color: #bbc7cc;
+  background-image: url('../bio_photos/Profile Picturebw.jpg');
+  background-size: 100%;
+  font-family:'Montserrat', sans-serif;
+  font-variant: small-caps;
+  color: #2b0402;
   float: left;
+}
+#header:hover {
+  background-image: url('../bio_photos/Profile Picture.jpg');
+  background-size: 100%;
 }
 
 h1 {
   margin: 3% 0% 0%;
   padding: 0% 0% 0%;
   font-stretch: extra-expanded;
-  font-family:'Poiret One', cursive;
+  font-family:'Montserrat', sans-serif;
   font-variant: small-caps;
+  color: #18191a;
   font-size: 300%;
-  text-shadow: 3px 2px #919191;
+  text-shadow: 3px 2px #fff;
 }
 
 /* #header>h2 {
@@ -52,25 +61,24 @@ h1 {
 }
 
 .buttons{
-  margin: 0% 10% 20%;
-  padding: 0% 0% 5%;
   position: relative;
   text-align: center;
 }
 button {
-  margin-left: 3%;
-  margin-right: 3%;
-  width: 10%;
-  border: 2px solid #919191;
-  font-family: 'Poiret One', cursive;
+  position:relative;
+  padding: inherit;
+  width: 15%;
+  text-align: center;
+  border: 2px solid #000;
+  font-family: 'Julius Sans One', sans-serif;
   font-variant: small-caps;
-  font-size: 12pt;
+  font-size: 80%;
   color: #1a1a1a;
   background-color: #c7c7c7;
   box-shadow: 2px 4px #919191;
 }
 button:hover{
-  background-color: #c6e2e3;
+  background-color: #fda329;
 }
 button:active {
   background-color: #bcc1d8;
@@ -87,8 +95,14 @@ button:active {
 #home {
   width: 50%;
   height: 100%;
-  background-color: #c5e2e3;
+
+  background-image: url('../bio_photos/home_homebw.jpg');
+  background-size: 100%;
   float: left;
+}
+#home:hover {
+  background-image: url('../bio_photos/home_home.jpg');
+  background-size: 100%;
 }
 
 #resume {
