@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  margin:0px;
+}
+
+.bg {
+  background-image: url("../img/airline.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .top {
+  width: 100%;
+  padding: none;
+  margin: none;
+  position: absolute;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  background-color: #1b3b53;
+}
+.logo {
+  width: 50%;
+  padding: none;
+  margin: none;
+  position: relative;
+  box-sizing: border-box;
+}
