@@ -26,8 +26,11 @@ body {
   background-size: 100%;
   float: left;
   font-family: 'Montserrat', sans-serif;
-  color: #a65c8f;
-  text-shadow: 2px 2px #000000;
+  color: #fff;
+  text-shadow: 2px 2px #000,
+  -2px 2px #000,
+  2px -2px #000,
+  -2px -2px #000;
   text-transform: uppercase;
 }
 
