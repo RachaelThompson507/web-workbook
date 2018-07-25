@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  margin:0px;
+  margin: 0px;
 }
 
 .bg {
@@ -10,19 +10,43 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
- .top {
+
+.top {
   width: 100%;
-  padding: none;
-  margin: none;
+  height: 12%;
+  margin: 0, auto;
   position: absolute;
-  box-sizing: border-box;
+  z-index: -1;
   border-bottom: 1px solid white;
   background-color: #1b3b53;
 }
+
 .logo {
   width: 50%;
-  padding: none;
-  margin: none;
+  height: auto;
+  margin: 0px, auto;
+  padding-left: 5%;
   position: relative;
-  box-sizing: border-box;
+  left: 0%;
+  float: left;
+}
+
+.nav {
+  width: 50%;
+  height: auto;
+  margin: 0px, auto;
+  position: relative;
+  right: -4%;
+  bottom: 50%;
+  display: inline;
+  float: right;
+  text-align: center;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  color: lightgray;
+  font-size: 10pt;
+  padding: 0% 2% 0% 2%;
+  text-decoration: none;
 }
