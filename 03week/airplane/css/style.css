@@ -35,11 +35,11 @@ body, html {
 .nav {
   width: 50%;
   height: auto;
-  margin: 0px, auto;
+  margin: 0 auto;
   position: relative;
   /* right: -4%; */
   bottom: 50%;
-  display: inline;
+  /* display: inline; */
   float: right;
   text-align: center;
 }
@@ -50,16 +50,24 @@ a {
   font-size: 10pt;
   padding: 0% 2% 0% 2%;
   text-decoration: none;
+  display: inline;
 }
 
 .search {
-  height: 30%;
-  width: 30%;
-  margin: 5px, auto;
+  height: 32%;
+  width: 33%;
+  margin: 5px auto;
   background-color: #1b3b53;
   box-sizing: border-box;
   position: absolute;
   z-index: 1;
   bottom: 40%;
-  left: 5%
+  left: 7%
+}
+
+.plane_car {
+  width: 100%;
+  margin: 0px;
+  
+  /* background-color: green; */
 }
