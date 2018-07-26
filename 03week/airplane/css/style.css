@@ -17,6 +17,10 @@ body, html {
   height: 12%;
   margin: 0px;
   position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
   z-index: -1;
   border-bottom: 1px solid white;
   background-color: #1b3b53;
@@ -29,7 +33,6 @@ body, html {
   padding-left: 5%;
   position: relative;
   left: 0%;
-  float: left;
 }
 
 .nav {
@@ -37,10 +40,8 @@ body, html {
   height: auto;
   margin: 0 auto;
   position: relative;
-  /* right: -4%; */
+  left: 27%;
   bottom: 50%;
-  /* display: inline; */
-  float: right;
   text-align: center;
 }
 
@@ -48,14 +49,19 @@ a {
   font-family: "Lato", sans-serif;
   color: lightgray;
   font-size: 10pt;
-  padding: 0% 2% 0% 2%;
   text-decoration: none;
-  display: inline;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.search {
+img {
+  padding-left: 1%;
+  padding-right: 1%
+}
+
+/* .search {
   height: 32%;
-  width: 33%;
+  width: 31.5%;
   margin: 5px auto;
   background-color: #1b3b53;
   box-sizing: border-box;
@@ -69,5 +75,23 @@ a {
 .plane_car {
   width: 100%;
   margin: 0px;
+  border: 2px solid red;
+  position: absolute;
   /* background-color: green; */
 }
+
+.plane {
+  border: 2px solid yellow;
+  position: relative;
+  float: left;
+}
+.hotel {
+  border: 2px solid green;
+  position: relative;
+  float: center;
+}
+.car {
+  border: 2px solid purple;
+  position: relative;
+  float: right;
+} */
