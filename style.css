@@ -2,8 +2,7 @@ body {
   color: white;
   background-color: black;
   font-family: 'Walter Turncoat', cursive;
-  background-image:
-  url("../../background-image/work_hard.jpg");
+  background-image: url("../../background_image/work_hard.jpg");
   background-size: 100%, 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
