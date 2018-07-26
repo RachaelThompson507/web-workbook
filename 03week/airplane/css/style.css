@@ -59,6 +59,7 @@ a {
   margin: 5px auto;
   background-color: #1b3b53;
   box-sizing: border-box;
+  border-radius: 4px;
   position: absolute;
   z-index: 1;
   bottom: 40%;
@@ -68,6 +69,5 @@ a {
 .plane_car {
   width: 100%;
   margin: 0px;
-  
   /* background-color: green; */
 }
