@@ -59,39 +59,59 @@ img {
   padding-right: 1%
 }
 
-/* .search {
+.search {
   height: 32%;
   width: 31.5%;
   margin: 5px auto;
   background-color: #1b3b53;
   box-sizing: border-box;
   border-radius: 4px;
+  text-align: center;
   position: absolute;
-  z-index: 1;
+  display: flex;
   bottom: 40%;
-  left: 7%
+  left: 8%
 }
 
 .plane_car {
+  background-color: #148d80;
   width: 100%;
   margin: 0px;
-  border: 2px solid red;
+  border: none;
+  border-radius: 5px;
+  display: block;
   position: absolute;
-  /* background-color: green; */
 }
 
 .plane {
-  border: 2px solid yellow;
+  border: none;
+  padding: 1% 10% 1% 10%;
   position: relative;
-  float: left;
+  left: 0%;
+}
+.plane:hover {
+  border: none;
+  background-color: #1b3b53;
+  padding: 1% 10% 1% 10%;
 }
 .hotel {
-  border: 2px solid green;
+  border: none;
+  padding: 1% 10% 1% 10%;
   position: relative;
-  float: center;
+}
+.hotel:hover {
+  border: none;
+  background-color: #1b3b53;
+  padding: 1% 10% 1% 10%;
 }
 .car {
-  border: 2px solid purple;
+  border: none;
+  padding: 1% 10% 1% 10%;
+  text-align: center;
   position: relative;
-  float: right;
-} */
+}
+.car:hover {
+  border: none;
+  background-color: #1b3b53;
+  padding: 1% 10% 1% 10%;
+}
