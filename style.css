@@ -1,10 +1,18 @@
 body {
   color: white;
   font-family: 'Walter Turncoat', cursive;
+<<<<<<< HEAD
   background-image: url("../../background_image/work_hard.jpg");
   background-size: 100%, 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+=======
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: sticky;
+>>>>>>> be22807fb66732f306ce8c02426149fab2aad882
 }
 h1 {
   color: #e7fffe;
