@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-compatible" content="IE=edge" />
+  <meta name="viewport" content="width=devicewidth" , initialscale=1/>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>UX Atlantic</title>
+</head>
+
+<body class="bg">
+  <header>
+    <section class="top">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+      <div class="nav">
+        <nav>
+          <a class="home" href=""><img src="img/home-icon.png" alt="home"> Home </a>
+          <a class="travel" href=""><img src="img/deal-icon.png" alt="travel deal">  Travel Deals </a>
+          <a class="flights" href=""><img src="img/schedule-icon.png" alt="Flight Schedule"> Flight Schedule </a>
+          <a class="login" href=""><img src="img/login-icon.png" alt="Login Here">  Register/Login </a>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="search">
+    <div class="plane_car">
+      <img class="plane" src="img/plane-icon.png" alt="Plane Tickets" width="10%" />
+      <img class="hotel" src="img/hotel-icon.png" alt="Hotel Information" width="10%" />
+      <img class="car" src="img/car-icon.png" alt="Book a Rental Car" width="10%" />
+    </div>
+    <div class="trip_location">
+      <section class="depart"> <input type="text" name="depart" value="" placeholder="Depart"> </section>
+      <section class="arrive"> <input type="text" name="arrive" value="" placeholder="Arrive"> </section>
+    </div>
+    <div class="trip_dates">
+      <section class="depart_day"> <input type="date" name="depart date"> </section>
+      <section class="arrive_day"> <input type="date" name="arrive date"> </section>
+    </div>
+    <div class="trip_details">
+      <section class="options">
+        <p> Passengers </p>
+        <select name="Passengers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </section>
+      <section class="more_options">
+        <input type="radio" name="return" value="return" id="return"> Return
+        <input type="radio" name="oneway" value="oneway" id="oneway"> One Way
+      </section>
+    </div>
+    <div class="search_button">
+      <input type="submit" value="Search Flights">
+    </div>
+  </section>
+</body>
+
+</html>
