@@ -256,29 +256,37 @@ nav>ul>li {
       color: #fff;
       font-family: sans-serif;
       display: flex;
-      flex-wrap: wrap;
       flex-direction: column;
-      justify-content: space-around;
+      flex-wrap: nowrap;
+      justify-content: space-between;
       align-items: flex-start;
     }
     #links {
       width: 50%;
+      padding: 1%;
       align-self: flex-start;
       font-size: 1.03em;
       color: #fff;
+      display:inline-flex;
     }
     #links >h1, ul{
       text-align: center;
       list-style: none;
+      flex-wrap: wrap;
+      justify-content: flex-start;
     }
     #social {
-      width: 50%; 
+      width: 50%;
+      padding: 1%;
       align-self: flex-start;
       font-size: 1.03em;
       color: #fff;
+      display:inline-flex;
     }
     #social >h1, ul{
       text-align: center;
       list-style: none;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
   }
