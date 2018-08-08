@@ -1,26 +1,21 @@
 /*This applies to screens 0px - 600px*/
+
 body {
   width: 100%;
 }
 
 /*This applies to tablet screens*/
-@media only screen
-and (min-device-width:768px)
-and (max-device-width: 1024px)
-{
-body {
-  width: 100%;
-}
 
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  body {
+    width: 100%;
+  }
 }
 
 /*This applies to laptop screens*/
-@media only screen
-and (min-device-width:1200px)
-and (max-device-width: 1600px)
-{
-body {
-  width: 100%;
-}
 
+@media only screen and (min-device-width:1200px) and (max-device-width: 1600px) {
+  body {
+    width: 100%;
+  }
 }
