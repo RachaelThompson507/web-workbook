@@ -236,12 +236,12 @@ h1 {
   .input>#radio {
     align-items: flex-start;
     margin: 0 3%;
-    font-size: 1em;
+    font-size: .7em;
   }
   .input>#button {
     align-items: flex-end;
     margin: 0 3%;
-    font-size: 1em;
+    font-size: .7em;
   }
   #button {
     padding: 2%;
