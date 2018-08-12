@@ -46,20 +46,19 @@ h1 {
 .input {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-end;
   align-items: baseline;
 }
 
 .input>#radio {
   align-items: flex-start;
   margin: 0 3%;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 .input>#button {
   align-items: flex-end;
   margin: 0 3%;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 #button {
@@ -123,7 +122,6 @@ h1 {
   .input {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
     align-items: baseline;
   }
   .input>#radio {
@@ -229,9 +227,6 @@ h1 {
   }
   .input {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: baseline;
   }
   .input>#radio {
     align-items: flex-start;
