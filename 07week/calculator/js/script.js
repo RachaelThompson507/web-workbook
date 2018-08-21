@@ -25,8 +25,14 @@ function division() {
   document.querySelector("#results").value += "/";
 }
 
+function removeZero (str) {
+  if(str[0]==='0'){
+    return str.slice(1,str.length)
+  }
+}
+
 function equals() {
-  document.querySelector("#results").value = eval(document.querySelector("#results").value);
+  document.querySelector("#results").value = eval((removeZero(document.querySelector("#results").value));
 }
 
 function plusNegative() {
