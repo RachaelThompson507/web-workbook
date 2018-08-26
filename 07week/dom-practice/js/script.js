@@ -1,26 +1,40 @@
 'use strict';
+document.addEventListener("DOMContentLoaded", function(event) {
 
-// document.addEventListener("DOMContentLoaded", function(event) {
-  // You code here
 window.onload = function() {
-  // var counts = document.getElementsByTagName('ul');
-  // console.log(count[0].children.lengh);
-  // let count = list[0].children.length;
-  // console.log(count);
-  var count = document.querySelectorAll('li');
-  console.log(count.length);
+//item count
+  var itemCount = document.querySelectorAll('li');
+  console.log(itemCount.length);
+//h2
+  var newh2 = document.createElement('h2');
+    newh2.innerHTML = 'You have ' + itemCount.length + ' items in your shopping cart.';
+    document.getElementsByTagName('h1')[0].append(newh2);
+//alert on window- item #
+  alert('You have '+ itemCount.length + ' items in your shopping cart.');
 
+//create an id for ul tag
+  // var ulId = document.getElementsByTagName('ul');
+  // ulId.id = 'itemsInCart';
+//create an input to add items
+  // var newItem = document.createElement('input');
+  //   newItem.setAttribute('id','newItem');
+  //   newItem.setAttribute('type', 'text');
+  //   document.getElementById('div').insertBefore(newItem, null).innerHTML;
 
-// var newh2 = document.createElement('h2');
-// newh2.innerHTML="You have"+list[0].children.length + "items in your shopping cart";
-// document.h1.appendChild(newh2);
+function addItem(){
+  	var ul = document.getElementById("itemsInCart");
+    var newItem = document.getElementById("newItem");
+    var li = document.createElement("li");
+    li.setAttribute('id',newItem.value);
+    li.appendChild(document.createTextNode(newItem.value));
+    ul.appendChild(li);
+  }
 
-//document.querySelector('h1').insertAdjacentHTML('afterEnd', "<h2> You have" + count.length + "items in your shopping cart</h2>");
-var newh2 = document.createElement('h2');
-newh2.innerHTML = 'you have ' + count.length + ' items in your shopping cart';;
-document.getElementsByTagName('h1')[0].append(newh2);
-
+function removeItem(){
+	var ul = document.getElementById("itemsInCart");
+  var newItem = document.getElementById("newItem");
+  var item = document.getElementById(newItem.value);
+  ul.removeChild(item);
 }
-
-
-//});
+}
+});

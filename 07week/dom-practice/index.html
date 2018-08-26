@@ -2,17 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
     <title>DOM Project</title>
   </head>
   <body>
     <h1>Shopping Cart</h1>
 
-<ul>
+<ul id="itemsInCart">
   <li>All-New Fire 7 Tablet</li>
   <li>Flash Furniture Yellow Metal Indoor-Outdoor Chair with Arms</li>
   <li>Amazon Echo</li>
   <li>Coleman Lay Z Spa Inflatable Hot Tub</li>
 </ul>
+
+<input id="newItem" type="text"/>
+  <button onclick="addItem()"> add item </button>
+  <button onclick="removeItem()"> remove item </button>
 
 <div id="div">
 
