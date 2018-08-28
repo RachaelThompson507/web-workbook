@@ -47,6 +47,18 @@ function eraseItem(event){
   updateItems();
 }
 
+//erases exsisting items
+// function removeExsisting(){
+//   var buttonRemove2 = document.createElement('button');
+//   buttonRemove2.innerHTML = 'remove item';
+//   document.getElementsByTagName('ul')[0].appendChild('li');
+// }
+
+// function eraseExsisting(event){
+//   this.parentNode.remove();
+//   updateItems();
+// }
+
 //updates the counter above
 function updateCounter() {
   var newh2 = document.createElement('h2');
